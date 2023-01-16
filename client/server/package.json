@@ -18,7 +18,7 @@
     "express": "^4.17.1",
     "nodemailer": "^6.4.11",
     "urlencode": "^1.1.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

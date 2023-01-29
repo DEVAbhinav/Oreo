@@ -9,23 +9,25 @@ import styles from "./styles.module.css";
 import { StickyContainer, Sticky } from "react-sticky"
 import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
+import blogData  from "../../data/blogData";
+
 
 function Blogs({match}) {
   const route = match.params.name;
   // console.log(route);
   const [data, setData] = useState({});
   const [mode, setMode] = useState('online');
-  const dataAbout = async () => {
+  const getDataForPage = async () => {
     try {
-      var url = `/${route}`;
-      var request = {
-        url,
-        method: "get",
-      };
-      const res = await axios(request);
-      const result = await res.data;
+      // remove below network call and use local blogData
+      // const res = await axios.get(`/${route}`);
+      // const result = await res.data;
+      // setData(result);
+      // localStorage.setItem("data", JSON.stringify(result))
+      const result = blogData[route];
       setData(result);
       localStorage.setItem("data", JSON.stringify(result))
+
     } catch (err) {
       setMode('offline')
       let collection = localStorage.getItem("data");
@@ -34,7 +36,7 @@ function Blogs({match}) {
     }
   };
   useEffect(() => {
-    dataAbout();
+    getDataForPage();
   }, [data]);
 
   const { title, intro, article, keyword, description, pageName, image } = data;

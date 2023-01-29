@@ -19,11 +19,6 @@ function Blogs({match}) {
   const [mode, setMode] = useState('online');
   const getDataForPage = async () => {
     try {
-      // remove below network call and use local blogData
-      // const res = await axios.get(`/${route}`);
-      // const result = await res.data;
-      // setData(result);
-      // localStorage.setItem("data", JSON.stringify(result))
       const result = blogData[route];
       setData(result);
       localStorage.setItem("data", JSON.stringify(result))
@@ -107,7 +102,7 @@ function Blogs({match}) {
       <div className="container">
         <div className="col-lg-8 col-md-10 col-sm-12 col-12 mx-auto">
           <h1 className="font-25 my-4 font-bold font-weight-bold text-brown underlined-heading">{title}</h1>
-          <img src={image} className="img-fluid my-3" alt={title} />
+          <img img-src={image} className="img-fluid my-3" alt={title} />
           {intro
             ? intro.map((introdetail, index) => {
                 return <p key={index} className="font-regular text-brown font-16">{introdetail}</p>;

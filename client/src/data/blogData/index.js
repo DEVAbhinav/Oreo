@@ -8,7 +8,7 @@ import dataPlaces from "./placesVisit.json";
 import dataCarRental from "./carHire.json";
 import dataTaxiService from "./taxi-and-cab-booking-service-in-varanasi.json";
 import dataVidhayanchal from "./vindhayachal.json";
-import dataAllahabad from "./allahabad.json";
+import dataAllahabad from "./Allahabad.json";
 import dataGaya from "./gaya.json";
 
 

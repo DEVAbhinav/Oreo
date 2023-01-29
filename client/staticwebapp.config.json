@@ -2,14 +2,14 @@
     "trailingSlash": "auto",
     "routes": [
       {
-        "route": "/*",
-        "allowedRoles": ["anonymous"]
-      },
-      {
         "route": "/images/*",
         "headers": {
           "cache-control": "must-revalidate, max-age=15770000"
         }
+      },
+      {
+        "route": "/*",
+        "allowedRoles": ["anonymous"]
       }
     ],
     "navigationFallback": {

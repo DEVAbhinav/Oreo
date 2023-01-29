@@ -1,7 +1,8 @@
 import React from "react";
-import { cred } from "./config";
+
 import { useGoogleMaps } from "react-hook-google-maps";
 
+const cred = {}
 function Contact() {
   const { ref, map, google } = useGoogleMaps(
     // Use your own API key, you can get one from Google (https://console.cloud.google.com/google/maps-apis/overview)

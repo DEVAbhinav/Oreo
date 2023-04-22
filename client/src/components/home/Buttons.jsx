@@ -104,6 +104,7 @@ function Buttons() {
               <label className="control-label text-brown font-12 font-regular mb-1" for="mobNumber">
                 Your Mobile Number
               </label>
+              
               <input
                 type="text"
                 className="form-control font-regular text-brown font-15"

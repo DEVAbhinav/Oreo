@@ -12,7 +12,7 @@ import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
 import kashi from './data/Kashi-Vishwanath-Darshan.json'
 import top from './data/Top-10-Places-in-Varanasi.json'
 import rental from './data/carHire.json'
-
+//hello
 
 function Blogs({match}) {
   const route = match.params.name;

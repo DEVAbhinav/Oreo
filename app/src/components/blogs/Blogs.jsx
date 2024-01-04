@@ -14,7 +14,6 @@ import top from './data/Top-10-Places-in-Varanasi.json'
 import rental from './data/carHire.json'
 import Ghats from './data/Ghats.json'
 import Bhu from './data/Bhu.json'
-//hello
 
 function Blogs({match}) {
   const route = match.params.name;

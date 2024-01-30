@@ -4,8 +4,6 @@ import Two from "../../images/packageTwo.jpeg"
 import Three from "../../images/packageThree.jpeg"
 import Four from "../../images/packageFour.jpeg"
 import { Link } from 'react-router-dom';
-import ones from"../package/ones"
-import two from"../package/two"
 
 function Package() {
     return (<>
@@ -16,7 +14,7 @@ function Package() {
                 
             </div>
             <div className="row">
-                <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/one" >
+                <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/airport" >
                     <a href="tel:+91-9935474730">
                         <img src={One} alt="Airport" className="rounded mb-3 img-fluid"/>
                     </a>
@@ -33,10 +31,10 @@ function Package() {
                     </a>
                     
                 </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-6">
+                <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/Vindhyachal" >
                     <a href="tel:+91-9935474730">
                         <img src={Four} alt="Airport" className="rounded mb-3 img-fluid"/>
-                    </a>
+                    </a></Link>
                 </div>
             </div>
         </div>

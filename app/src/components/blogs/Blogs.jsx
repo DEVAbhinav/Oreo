@@ -15,6 +15,11 @@ import rental from './data/carHire.json'
 import Ghats from './data/Ghats.json'
 import Bhu from './data/Bhu.json'
 import Devd from "./data/Dev-dipawali.json"
+import Prayagraj from "./data/Prayagraj.json"
+import Vindhyachal from "./data/Vindhyachal.json"
+import Gaya from "./data/Gaya.json"
+import Sarnath from "./data/Sarnath.json"
+import Durga from "./data/Durgamandir.json"
 
 function Blogs({match}) {
   const route = match.params.name;
@@ -42,7 +47,7 @@ function Blogs({match}) {
   useEffect(() => {
     dataAbout();
   }, [route]);
-  if(route ==="Kashi-Vishwanath-Darshan")
+  if(route ==="Kashi Vishwanath")
   data = kashi;
   else if(route === "carRental")
   data = rental 
@@ -54,7 +59,17 @@ function Blogs({match}) {
   data = Devd
   else if(route === "places")
   data = top;
-  
+  else if(route === "prayagraj")
+  data = Prayagraj;
+  else if(route === "vindhyachal")
+  data = Vindhyachal;
+  else if(route === "gaya")
+  data = Gaya;
+  else if(route === "Sarnath Darshan")
+  data = Sarnath;
+  else if(route === "Durga Mandir")
+  data = Durga;
+
   const { title, intro, article, keyword, description, pageName, image } = data;
   return (
     <React.Fragment>

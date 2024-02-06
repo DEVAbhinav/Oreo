@@ -8,8 +8,8 @@ import styles from "./styles.module.css";
 import { StickyContainer, Sticky } from "react-sticky"
 import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
-import vindhyachal from './data/Vindhyachal.json'
-import top from "./data/Top-10-Places-in-Varanasi.json"
+import vindhyachal from '../../blogs/data/Vindhyachal.json'
+import top from "../../blogs/data/Top-10-Places-in-Varanasi.json"
 
 function Package({match}) {
   const route = match.params.name;
@@ -37,7 +37,7 @@ function Package({match}) {
   useEffect(() => {
     dataAbout();
   }, [route]);
-  console.log(route)
+  
   
   if(route==="airport")
   data = top

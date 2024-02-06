@@ -1,7 +1,7 @@
 // VehicleTable.js
 
 import React, { useState, useEffect } from 'react';
-import VindhyachalData from './vindhyachal.json'; // Import data for Vindhyachal route
+import VindhyachalData from './data/VindhyachalVehicle.json'; // Import data for Vindhyachal route
  // Import data for another route
 
 const VehicleTable = ({ match }) => {

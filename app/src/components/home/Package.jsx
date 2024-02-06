@@ -1,8 +1,8 @@
 import React from 'react';
-import One from "../../images/packageOne.png"
-import Two from "../../images/packageTwo.jpeg"
-import Three from "../../images/packageThree.jpeg"
-import Four from "../../images/packageFour.jpeg"
+import Airport from "../../images/packageOne.png"
+import Prayagraj from "../../images/packageTwo.jpeg"
+import Gaya from "../../images/packageThree.jpeg"
+import Vindhyachal from "../../images/packageFour.jpeg"
 import { Link } from 'react-router-dom';
 
 function Package() {
@@ -16,24 +16,24 @@ function Package() {
             <div className="row">
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/airport" >
                     <a href="tel:+91-9935474730">
-                        <img src={One} alt="Airport" className="rounded mb-3 img-fluid"/>
+                        <img src={Airport} alt={Airport} className="rounded mb-3 img-fluid"/>
                     </a>
                     </Link>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                     <a href="tel:+91-9935474730">
-                        <img src={Two} alt="Airport" className="rounded mb-3 img-fluid"/>
+                        <img src={Prayagraj} alt={Prayagraj} className="rounded mb-3 img-fluid"/>
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                     <a href="tel:+91-9935474730">
-                        <img src={Three} alt="Airport" className="rounded mb-3 img-fluid"/>
+                        <img src={Gaya} alt={Gaya} className="rounded mb-3 img-fluid"/>
                     </a>
                     
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-6"><Link to ="/package/Vindhyachal" >
                     <a href="tel:+91-9935474730">
-                        <img src={Four} alt="Airport" className="rounded mb-3 img-fluid"/>
+                        <img src={Vindhyachal} alt={Vindhyachal} className="rounded mb-3 img-fluid"/>
                     </a></Link>
                 </div>
             </div>

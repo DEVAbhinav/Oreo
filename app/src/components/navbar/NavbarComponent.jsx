@@ -47,7 +47,7 @@ function NavbarComponent() {
                 <Link to="/blogs/Kashi Vishwanath" className="font-15 text-brown font-regular dropdown-item">                  
                   KashiVishwanath                  
                 </Link>
-                <Link to="/blogs/places" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Top 10 places" className="font-15 text-brown font-regular dropdown-item">
                   Top 10 places in Varanasi
                 </Link>
                 <Link to="/blogs/Ghats" className="font-15 text-brown font-regular dropdown-item">
@@ -59,13 +59,13 @@ function NavbarComponent() {
                 <Link to="/blogs/DevDipawali" className="font-15 text-brown font-regular dropdown-item">
                   Dev Depawali
                 </Link>
-                <Link to="/blogs/prayagraj" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Prayagraj" className="font-15 text-brown font-regular dropdown-item">
                   Prayagraj
                 </Link>
-                <Link to="/blogs/vindhyachal" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Vindhyachal" className="font-15 text-brown font-regular dropdown-item">
                   Vindhyachal
                 </Link>
-                <Link to="/blogs/gaya" className="font-15 text-brown font-regular dropdown-item">
+                <Link to="/blogs/Gaya" className="font-15 text-brown font-regular dropdown-item">
                   Gaya
                 </Link>
                 <Link to="/blogs/Sarnath Darshan" className="font-15 text-brown font-regular dropdown-item">

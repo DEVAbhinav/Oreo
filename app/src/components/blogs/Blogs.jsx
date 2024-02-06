@@ -57,13 +57,13 @@ function Blogs({match}) {
   data = Bhu
   else if(route === "DevDipawali")
   data = Devd
-  else if(route === "places")
+  else if(route === "Top 10 places")
   data = top;
-  else if(route === "prayagraj")
+  else if(route === "Prayagraj")
   data = Prayagraj;
-  else if(route === "vindhyachal")
+  else if(route === "Vindhyachal")
   data = Vindhyachal;
-  else if(route === "gaya")
+  else if(route === "Gaya")
   data = Gaya;
   else if(route === "Sarnath Darshan")
   data = Sarnath;

@@ -42,6 +42,17 @@
           "Afternoon: 1:30 PM to 7:15 PM",
           "Night: 8:15 PM to 10:30 PM"
         ]
+      },{
+        
+          "heading": "Timings",
+          "table": {
+          "headers": ["Days", "Morning", "Afternoon","Night"],
+          "rows": [
+            ["Normal Days", "5 Am to 12 PM","1:30 PM to 7:15 PM","8:15 PM to 10:30 PM" ],
+            ["Navratri Days", "4 AM to 1 PM","1 PM to 7:30 PM","8:30 PM to 3 AM"]
+          ]
+         }
+
       },
       {
         "question": "Navratri Days",

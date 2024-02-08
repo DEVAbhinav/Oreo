@@ -25,7 +25,7 @@ function NavbarComponent() {
         </div>
         <span onclick={handleShow}>open</span>
       </div> */}
-      <Navbar expand="lg" className="nav-background py-0" sticky="top" collapseOnSelect={true} variant="dark">
+      <Navbar expand="lg" className="nav-background py-0 nav"  sticky="top" collapseOnSelect={true} variant="dark">
         <Navbar.Brand href="/" className="mx-0">
           <img src={Logo} alt="Vinayak Travels" className="img-fluid py-0 my-0"/>
           <span className="text-white font-bold">Outstation Taxi Service</span>

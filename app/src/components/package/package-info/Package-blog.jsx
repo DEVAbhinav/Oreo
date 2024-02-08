@@ -43,6 +43,12 @@ function Package({match}) {
   data = top
   if(route === "Vindhyachal")
   data = vindhyachal;
+  function scrolltoPrice(){
+    const pricetable= document.getElementById("price-table")
+    if(pricetable){
+      pricetable.scrollIntoView({behavior:"smooth"})
+    }
+  }
   
   const { title, intro, article, keyword, description, pageName, image } = data;
   return (
@@ -112,7 +118,13 @@ function Package({match}) {
       }      
       <div className="container">
         <div className="col-lg-8 col-md-10 col-sm-12 col-12 mx-auto">
+          <div className="head-part">
+          
           <h1 className="font-25 my-4 font-bold font-weight-bold text-brown underlined-heading">{title}</h1>
+          
+          <button onClick={scrolltoPrice} className="scroll-button">Get Price Table</button>
+        
+          </div>
           <img src={image} className="img-fluid my-3" alt={title} />
           {intro
             ? intro.map((introdetail, index) => {
@@ -129,7 +141,6 @@ function Package({match}) {
           <h2 className="font-demi font-18 mt-4 text-brown">
             {pageName}
           </h2>
-          
         </div>
       </div>
     </React.Fragment>

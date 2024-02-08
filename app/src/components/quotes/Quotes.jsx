@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 function Quotes(){
   const [collection , setCollection] = useState('')
   const quotes = [

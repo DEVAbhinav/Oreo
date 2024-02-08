@@ -20,7 +20,7 @@ const VehicleTable = ({ match }) => {
   
   const displayedData = showFullTable ? data : data.slice(0, 4);
   return (
-    <div>
+    <div id="price-table">
       <h2> {route} Package </h2>
       <table>
         <thead>
@@ -45,7 +45,7 @@ const VehicleTable = ({ match }) => {
       {/* Render dropdown only if there are more than four rows */}
       {data.length > 4 && (
         <div>
-          <button onClick={() => setShowFullTable(!showFullTable)}>
+          <button  className="expand-button" onClick={() => setShowFullTable(!showFullTable)}>
             {showFullTable ? 'Show less' : 'Show more'}
           </button>
         </div>

@@ -17,6 +17,7 @@ function App() {
   return (
     <React.Fragment>
       <NavbarComponent />
+      
       <Quotes />
       <DetailsProvider>
         <Switch>

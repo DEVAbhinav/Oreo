@@ -1,8 +1,10 @@
 // VehicleTable.js
 
 import React, { useState, useEffect } from 'react';
-import VindhyachalData from './data/VindhyachalVehicle.json'; // Import data for Vindhyachal route
+import vindhyachalData from './data/VindhyachalVehicle.json'; // Import data for Vindhyachal route
  // Import data for another route
+ import prayagrajData from "./data/PrayagrajVehicle.json"
+ import gayaData from "./data/GayaVehicle.json"
 
 const VehicleTable = ({ match }) => {
   const route = match.params.name
@@ -13,7 +15,11 @@ const VehicleTable = ({ match }) => {
     
     let routeData = [];
     if (route=== 'Vindhyachal') {
-      routeData = VindhyachalData;}
+      routeData = vindhyachalData;}
+    if (route=== 'Prayagraj') {
+      routeData = prayagrajData;}
+      if (route=== 'Gaya') {
+        routeData = gayaData;}
     setData(routeData);
   }, [route]);
 

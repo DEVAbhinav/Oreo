@@ -53,6 +53,24 @@
           ]
          }
 
+      },{
+        "heading":"Price-table",
+        "table":{
+          "headers":["Vehicle","People","Luggage","Price"],
+          "rows": [
+            ["WagonR","4","Small","2200"],
+            ["Dzire","4","Medium","2400"],
+            ["Amaze","4","Large","2600"],
+            ["Ertiga","6","Small","2700"],
+            ["Innova","7","Small","3000"],
+            ["Innova Crysta","7","Medium","3500"],
+            ["Citiline","9","Large","4200"],
+            ["Traveller","12","Large","5000"],
+            ["Traveller","17","Large","5500"],
+            ["Traveller","20","Large","7000"],
+            ["Traveller","26","Large","9000"]
+          ]
+        }
       },
       {
         "question": "Navratri Days",

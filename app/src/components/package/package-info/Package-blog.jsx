@@ -10,14 +10,16 @@ import { FaUserAlt, FaCommentDots} from "react-icons/fa";
 import { AiFillHeart, AiFillCalendar, AiFillEye} from "react-icons/ai";
 
 function Package({match}) {
-  const route = match.params.name;
+  const route_space = match.params.name;
+  const route = route_space.split(" ").join("")
+
   let [data, setData] = useState({});
   const [mode, setMode] = useState('online');
   
   const dataAbout = async () => {
     try {
       
-      const res = await axios.get(`https://www.kashitaxi.in/api/getBlogs?name=${route}`);
+      const res = await axios.get(`http://www.kashitaxi.in/api/getBlogs?name=${route}`);
       const result =  res;
       console.log(result.data)
       setData(result.data);

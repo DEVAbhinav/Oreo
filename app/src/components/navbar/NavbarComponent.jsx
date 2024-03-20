@@ -77,6 +77,15 @@ function NavbarComponent() {
                 <Link to="/blogs/Durgamandir" className="font-15 text-brown font-regular dropdown-item">
                   Durga Mata Mandir
                 </Link>
+                <Link to="/blogs/VaranasiItinary" className="font-15 text-brown font-regular dropdown-item">
+                  Varanasi Itinary
+                </Link>
+                <Link to="/blogs/VarnasiAyodhyaAllahbad" className="font-15 text-brown font-regular dropdown-item">
+                  Varansi Ayodhya Allahbad
+                </Link>
+                <Link to="/blogs/Touroperators" className="font-15 text-brown font-regular dropdown-item">
+                  Tour Operators
+                </Link>
               </div>
             </NavDropdown>
             <NavDropdown title="Packages" id="collasible-nav-dropdown" className="font-medium font-17 px-3 navbar-item text-white text-center active">
@@ -105,7 +114,7 @@ function NavbarComponent() {
                 <Link to="/package/Prayagraj" className="font-15 text-brown font-regular dropdown-item">                  
                   Varanasi to Prayagraj             
                 </Link>
-                
+
               </div>
             </NavDropdown>
             <NavLink to="/blogs/carHire" activeClassName="activeNav">

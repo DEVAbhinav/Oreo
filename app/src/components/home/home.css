@@ -53,6 +53,35 @@
 .carousel-alignment{
   text-align: left !important;
 }
+
+
+/* General styles for sections */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffecd3; /* Matching the existing background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings within sections */
+section h1, section h2 {
+  color: #333; /* Matching the color from package.css */
+  margin-bottom: 15px;
+}
+
+/* Paragraphs within sections */
+section p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Specific styles for the first section */
+section:first-of-type {
+  background-color: #ffffff;
+}
+
 @media only screen and (max-width: 993px){
   .bg-home {
       background-image: linear-gradient(

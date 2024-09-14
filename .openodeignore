@@ -1,8 +1,0 @@
-
-# dotenv environment variables file
-.env
-
-.node_modules
-.openode
-config/
-.server/node_modules

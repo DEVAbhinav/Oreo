@@ -57,3 +57,10 @@ Check in browser on http://localhost:8080/
 <h5 align="center">
 Made with 💖 for Kashi
 </h5>
+
+## How to make changes in Website.
+/home/codespace/Oreo/app/src/App.js -  This is entry point for react App.
+- This has router logic.
+
+### For blogs and packages route API is called.
+- API is Az function that reads title from Query or body and sends resopnse in json.

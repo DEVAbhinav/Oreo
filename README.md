@@ -64,3 +64,7 @@ Made with 💖 for Kashi
 
 ### For blogs and packages route API is called.
 - API is Az function that reads title from Query or body and sends resopnse in json.
+
+### Link to work flow
+- Workflows are Github action that deploys code chagnes. 
+- Current active work flow is https://github.com/DEVAbhinav/Oreo/edit/AzureDeploy/.github/workflows/azure-static-web-apps-yellow-tree-0be727a00.yml

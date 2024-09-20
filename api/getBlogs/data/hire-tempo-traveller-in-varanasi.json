@@ -4,7 +4,11 @@
   "pageName": "hire-tempo-traveller-in-varanasi",
   "description": "Hire a tempo traveller on rent in Varanasi with Vinayak Travels. We offer comfortable and affordable tempo travellers for group travel with professional drivers and 24/7 service.",
   "keywords": ["Tempo Traveller Varanasi", "Hire Tempo Traveller Varanasi", "Tempo Traveller Rental Varanasi", "Vinayak Travels", "Group Travel Varanasi", "Affordable Tempo Traveller Varanasi"],
-  "image":"../images/miniBus.png",
+  "images": {
+    "id": "sHWTwOyZ5mflEoXP",
+    "description": "",
+    "file": ["../images/vnsayopyg.png"]
+  },
   "article": [
     {
       "heading": "H1",

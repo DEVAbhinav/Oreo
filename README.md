@@ -68,3 +68,18 @@ Made with 💖 for Kashi
 ### Link to work flow
 - Workflows are Github action that deploys code chagnes. 
 - Current active work flow is https://github.com/DEVAbhinav/Oreo/edit/AzureDeploy/.github/workflows/azure-static-web-apps-yellow-tree-0be727a00.yml
+
+### How to add new blogs.
+- create file in /home/codespace/Oreo/api/getBlogs/data/your-file-name.json
+- keep all small letters only in file name.
+- GET - kashitaxi.in/blogs/your-file-name
+- If data is not comming inspect the api request - https://www.kashitaxi.in/api/getBlogs?name=your-page-name
+- if its 500 in response likely naming issue. verify file name and url you type is same.
+
+### How to debug API
+- Open github codespace - https://refactored-goggles-jjq76qj4gpjcj5r.github.dev/
+- nvm use 14
+- npm install -g azure-functions-core-tools@3
+- navigate to function - cd ~/Oreo/api
+- func start
+- open another terminal and hit curl - curl -X GET "http://localhost:7071/api/getBlogs?name=hotel-booking-in-varanasi"

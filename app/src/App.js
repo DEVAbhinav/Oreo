@@ -29,6 +29,13 @@ function App() {
               return <Blogs {...props}/>;
             }}
           />
+          {/* Created Service pages Sample URL - https://www.kashitaxi.in/services/hotel-booking-in-varanasi */}
+          <Route
+            exact path="/services/:name"
+            render={(props) => {
+              return <Blogs {...props}/>;
+            }}
+          />
           <Route exact path="/package/:name"
             render={(props) => {
               return <Package {...props}/>;

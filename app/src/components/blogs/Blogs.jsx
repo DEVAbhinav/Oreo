@@ -91,7 +91,7 @@ function Blogs({match}) {
         content={pageName}
       />
       <title>
-        {pageName}
+        {title || pageName}
       </title>
     </Helmet>
       {        
